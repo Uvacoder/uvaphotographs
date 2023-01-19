@@ -88,6 +88,8 @@ export default function Header({
                   Logos
                 </a>
               </Link>
+             </li>
+             <li
               className={classnames("w-full text-center", {
                 ["md:border-b-2 md:border-slate-300"]: active === 4,
               })}
