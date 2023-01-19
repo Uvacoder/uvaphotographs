@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fortawesome/fontawesome-svg-core/styles.css";
+
+html,
+body,
+#__next {
+  @apply w-full h-full font-oswald;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-slate-50;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-slate-500;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-600;
+}
