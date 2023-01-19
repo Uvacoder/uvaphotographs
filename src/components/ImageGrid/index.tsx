@@ -8,7 +8,7 @@ export default function ImageGrid({
   folder,
   images,
 }: {
-  folder: "show" | "people" | "detail";
+  folder: "cartoon" | "misc" | "woodworking" | "lilpony" | "logos";
   images: number;
 }) {
   const imagesPaths = [];
