@@ -18,8 +18,8 @@ export default function Header({
       <div className="flex items-center justify-between mb-4">
         <Link href="/">
           <a className="text-2xl md:text-4xl uppercase no-underline block">
-            <span className="text-slate-700">Ned</span>
-            <span className="text-slate-500">Ryerson</span>
+            <span className="text-slate-700">Helen</span>
+            <span className="text-slate-500">Ward</span>
           </a>
         </Link>
 
@@ -52,12 +52,12 @@ export default function Header({
                 ["md:border-b-2 md:border-slate-300"]: active === 2,
               })}
             >
-              <Link href="/detail">
+              <Link href="/cartoons">
                 <a
                   className="p-4 md:p-0 w-full block hover:text-slate-500 transition-all"
                   onClick={() => setMobileNav(false)}
                 >
-                  Detail
+                  Cartoons
                 </a>
               </Link>
             </li>
@@ -66,12 +66,12 @@ export default function Header({
                 ["md:border-b-2 md:border-slate-300"]: active === 3,
               })}
             >
-              <Link href="/people">
+              <Link href="/lilpony">
                 <a
                   className="p-4 md:p-0 w-full block hover:text-slate-500 transition-all"
                   onClick={() => setMobileNav(false)}
                 >
-                  People
+                  MylilPony
                 </a>
               </Link>
             </li>
@@ -80,12 +80,24 @@ export default function Header({
                 ["md:border-b-2 md:border-slate-300"]: active === 4,
               })}
             >
-              <Link href="/show">
+              <Link href="/logos">
                 <a
                   className="p-4 md:p-0 w-full block hover:text-slate-500 transition-all"
                   onClick={() => setMobileNav(false)}
                 >
-                  Show
+                  Logos
+                </a>
+              </Link>
+              className={classnames("w-full text-center", {
+                ["md:border-b-2 md:border-slate-300"]: active === 4,
+              })}
+            >
+              <Link href="/logos">
+                <a
+                  className="p-4 md:p-0 w-full block hover:text-slate-500 transition-all"
+                  onClick={() => setMobileNav(false)}
+                >
+                  Logos
                 </a>
               </Link>
             </li>
