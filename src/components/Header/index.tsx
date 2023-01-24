@@ -71,7 +71,7 @@ export default function Header({
                   className="p-4 md:p-0 w-full block hover:text-slate-500 transition-all"
                   onClick={() => setMobileNav(false)}
                 >
-                  MylilPony
+                  lilPony
                 </a>
               </Link>
             </li>
@@ -89,20 +89,6 @@ export default function Header({
                 </a>
               </Link>
              </li>
-             <li
-              className={classnames("w-full text-center", {
-                ["md:border-b-2 md:border-slate-300"]: active === 4,
-              })}
-            >
-              <Link href="/logos">
-                <a
-                  className="p-4 md:p-0 w-full block hover:text-slate-500 transition-all"
-                  onClick={() => setMobileNav(false)}
-                >
-                  Logos
-                </a>
-              </Link>
-            </li>
           </ul>
 
           <a
