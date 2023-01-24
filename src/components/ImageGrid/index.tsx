@@ -12,7 +12,7 @@ export default function ImageGrid({
   images: number;
 }) {
   const imagesPaths = [];
-  for (var i = 1; i <= images; i++) {
+  for (let i = 1; i <= images; i++) {
     imagesPaths.push("/static/galleries/" + folder + "/" + i + ".jpg");
   }
 
