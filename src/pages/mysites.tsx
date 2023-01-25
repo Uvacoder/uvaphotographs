@@ -2,12 +2,12 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ImageGrid from "../components/ImageGrid";
 
-export default function Misc() {
+export default function Mysites() {
   return (
     <div className="grid grid-rows-[auto_auto] h-full px-4 pt-4 pb-2 md:px-8 md:pt-6 md:pb-4">
-      <Header title="Misc" active={2} />
+      <Header title="Mysites" active={5} />
       <div className="w-full overflow-y-auto">
-        <ImageGrid folder="misc" images={188} />
+        <ImageGrid folder="mysites" images={12} />
       </div>
       <Footer />
     </div>
