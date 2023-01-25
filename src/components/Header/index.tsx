@@ -89,6 +89,20 @@ export default function Header({
                 </a>
               </Link>
              </li>
+             <li
+              className={classnames("w-full text-center", {
+                ["md:border-b-2 md:border-slate-300"]: active === 5,
+              })}
+            >
+              <Link href="/mysites">
+                <a
+                  className="p-4 md:p-0 w-full block hover:text-slate-500 transition-all"
+                  onClick={() => setMobileNav(false)}
+                >
+                  MySites
+                </a>
+              </Link>
+            </li>
           </ul>
 
           <a
